@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg: #f8f8f4;
+  --app-text: #1f2937;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--app-bg);
+  color: var(--app-text);
+}
+
+.card {
+  @apply rounded-xl bg-white shadow-sm ring-1 ring-stone-200;
+}
